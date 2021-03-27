@@ -6,9 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bookstore_sso" />
+        <module name="bookstore_seach" />
         <module name="bookstore" />
+        <module name="bookstore_manager" />
+        <module name="bookstore_rest" />
+        <module name="bookstore_common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="common" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
